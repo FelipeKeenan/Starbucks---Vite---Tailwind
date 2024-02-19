@@ -3,7 +3,7 @@ import f5 from '../assets/f5.jpg'
 
 const News = () => {
     return (
-        <section className="flex lg:px-3">
+        <section className="flex px-4 sm:px-0">
             <div className="flex-1 h-[770px]" style={{ backgroundImage: `url(${backgroundTwo})`, backgroundPosition: 'center-left', backgroundSize: 'cover' }}>
                 <div className="flex flex-col items-center justify-start pb-9 text-center">
                     <h2 className="font-black text-3xl uppercase mb-8 pt-16 smartphone:text-2xl">
