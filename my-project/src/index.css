@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-[1140px] m-auto
+}
+
+.img-custom {
+  @apply w-[160px] h-[160px] border-8 border-[#117050]
+}
+body{
+  font-family: Oswald;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
