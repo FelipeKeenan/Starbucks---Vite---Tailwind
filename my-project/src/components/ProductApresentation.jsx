@@ -2,8 +2,8 @@ import bg3 from '../assets/bg3.jpg'
 
 const ProductApresentation = () => {
     return (
-        <section className="flex px-4 sm:px-0">
-            <div className="flex flex-col w-1/2 items-center pb-9 text-center">
+        <section className="flex flex-col sm:flex-row px-4 sm:px-0">
+            <div className="flex flex-col sm:w-1/2 items-center pb-9 text-center">
                 <div className="h-6 w-48 bg-[#117050] mt-[55px] mb-7"></div>
                 <h2 className="font-black text-3xl uppercase mb-8">O amor<br />começa com uma xícara</h2>
                 <p className="font-extralight tracking-wider text-[#111111] md:px-4">

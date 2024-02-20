@@ -9,9 +9,14 @@
 .img-custom {
   @apply w-[160px] h-[160px] border-8 border-[#117050]
 }
-body{
+
+body {
   font-family: Oswald;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.li-custom {
+  @apply text-xl opacity-100 hover:underline cursor-pointer
 }

@@ -19,7 +19,7 @@ const Banner = () => {
                 <div className="flex flex-col gap-2 items-center justify-center mt-10 pb-10 md:flex-row md:pt-8">
                     {/* coffe */}
                     <img className="rounded-full img-custom" src={C1} alt="coffe" />
-                    <img className="rounded-full img-custom" src={C2} alt="coffe-2" />
+                    <img className="rounded-full img-custom hidden sm:block" src={C2} alt="coffe-2" />
                     <img className="rounded-full img-custom hidden md:block" src={C3} alt="coffe-3" />
                 </div>
             </div>

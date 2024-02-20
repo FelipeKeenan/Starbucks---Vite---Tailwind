@@ -16,7 +16,7 @@ const News = () => {
                     <button className="mt-16 border-2 border-black py-4 px-12">Leia mais</button>
                 </div>
             </div>
-            <div className="flex-1" style={{ backgroundImage: `url(${f5})`, backgroundPosition: 'center', backgroundSize: 'cover' }}></div>
+            <div className="flex-1 hidden sm:block" style={{ backgroundImage: `url(${f5})`, backgroundPosition: 'center', backgroundSize: 'cover' }}></div>
         </section>
     )
 }
